@@ -1,0 +1,5 @@
+dataset,tn,fp,fn,tp,note
+bank,2942,63,259,131,summed over seeds
+bank_nodur,2986,19,353,37,summed over seeds
+hospital,157,13,9,171,summed over seeds
+iot,19988,507,1881,5579,summed over seeds

@@ -1,0 +1,155 @@
+{
+  "bank": {
+    "config": {
+      "n_clients": 10,
+      "participation": 1.0,
+      "rounds": 80,
+      "patience": 10,
+      "local_epochs": 5,
+      "batch_size": 64,
+      "optimizer": "sgd",
+      "lr": 0.03,
+      "lr_decay": 1.0,
+      "hidden": [
+        32
+      ],
+      "dropout": 0.1,
+      "weight_decay": 0.0,
+      "class_weight": null,
+      "mu": 0.0
+    },
+    "fedavg": {
+      "accuracy": "0.9052 \u00b1 0.0058",
+      "precision": "0.6781 \u00b1 0.0574",
+      "recall": "0.3359 \u00b1 0.0344",
+      "specificity": "0.9790 \u00b1 0.0055",
+      "f1": "0.4481 \u00b1 0.0368",
+      "macro_f1": "0.6981 \u00b1 0.0197",
+      "weighted_f1": "0.8907 \u00b1 0.0066",
+      "roc_auc": "0.8843 \u00b1 0.0199",
+      "pr_auc": "0.5175 \u00b1 0.0300",
+      "balanced_accuracy": "0.6575 \u00b1 0.0170",
+      "mcc": "0.4331 \u00b1 0.0384",
+      "fpr": "0.0210 \u00b1 0.0055",
+      "fnr": "0.6641 \u00b1 0.0344",
+      "log_loss": "0.2446 \u00b1 0.0146",
+      "brier": "0.0732 \u00b1 0.0030"
+    },
+    "target_94_met": false
+  },
+  "bank_nodur": {
+    "config": {
+      "n_clients": 10,
+      "participation": 1.0,
+      "rounds": 80,
+      "patience": 10,
+      "local_epochs": 3,
+      "batch_size": 64,
+      "optimizer": "sgd",
+      "lr": 0.03,
+      "lr_decay": 1.0,
+      "hidden": [
+        64
+      ],
+      "dropout": 0.1,
+      "weight_decay": 0.001,
+      "class_weight": null,
+      "mu": 0.0
+    },
+    "fedavg": {
+      "accuracy": "0.8904 \u00b1 0.0045",
+      "precision": "0.6654 \u00b1 0.1576",
+      "recall": "0.0949 \u00b1 0.0233",
+      "specificity": "0.9937 \u00b1 0.0030",
+      "f1": "0.1656 \u00b1 0.0390",
+      "macro_f1": "0.5535 \u00b1 0.0205",
+      "weighted_f1": "0.8522 \u00b1 0.0064",
+      "roc_auc": "0.7297 \u00b1 0.0232",
+      "pr_auc": "0.3293 \u00b1 0.0475",
+      "balanced_accuracy": "0.5443 \u00b1 0.0124",
+      "mcc": "0.2219 \u00b1 0.0587",
+      "fpr": "0.0063 \u00b1 0.0030",
+      "fnr": "0.9051 \u00b1 0.0233",
+      "log_loss": "0.3163 \u00b1 0.0093",
+      "brier": "0.0908 \u00b1 0.0030"
+    },
+    "target_94_met": false
+  },
+  "hospital": {
+    "config": {
+      "n_clients": 10,
+      "participation": 1.0,
+      "rounds": 80,
+      "patience": 10,
+      "local_epochs": 1,
+      "batch_size": 16,
+      "optimizer": "sgd",
+      "lr": 0.1,
+      "lr_decay": 1.0,
+      "hidden": [
+        64,
+        32
+      ],
+      "dropout": 0.0,
+      "weight_decay": 0.001,
+      "class_weight": "balanced",
+      "mu": 0.0
+    },
+    "fedavg": {
+      "accuracy": "0.9371 \u00b1 0.0239",
+      "precision": "0.9321 \u00b1 0.0435",
+      "recall": "0.9500 \u00b1 0.0497",
+      "specificity": "0.9235 \u00b1 0.0573",
+      "f1": "0.9395 \u00b1 0.0227",
+      "macro_f1": "0.9369 \u00b1 0.0241",
+      "weighted_f1": "0.9370 \u00b1 0.0241",
+      "roc_auc": "0.9802 \u00b1 0.0114",
+      "pr_auc": "0.9799 \u00b1 0.0122",
+      "balanced_accuracy": "0.9368 \u00b1 0.0241",
+      "mcc": "0.8775 \u00b1 0.0454",
+      "fpr": "0.0765 \u00b1 0.0573",
+      "fnr": "0.0500 \u00b1 0.0497",
+      "log_loss": "0.1742 \u00b1 0.0608",
+      "brier": "0.0480 \u00b1 0.0162"
+    },
+    "target_94_met": false
+  },
+  "iot": {
+    "config": {
+      "n_clients": 10,
+      "participation": 1.0,
+      "rounds": 60,
+      "patience": 8,
+      "local_epochs": 3,
+      "batch_size": 128,
+      "optimizer": "sgd",
+      "lr": 0.3,
+      "lr_decay": 0.97,
+      "hidden": [
+        64
+      ],
+      "dropout": 0.0,
+      "weight_decay": 0.0001,
+      "class_weight": null,
+      "mu": 0.0
+    },
+    "fedavg": {
+      "accuracy": "0.9146 \u00b1 0.0044",
+      "precision": "0.9170 \u00b1 0.0106",
+      "recall": "0.7479 \u00b1 0.0237",
+      "specificity": "0.9753 \u00b1 0.0041",
+      "f1": "0.8236 \u00b1 0.0119",
+      "macro_f1": "0.8836 \u00b1 0.0072",
+      "weighted_f1": "0.9116 \u00b1 0.0051",
+      "roc_auc": "0.9762 \u00b1 0.0016",
+      "pr_auc": "0.9421 \u00b1 0.0042",
+      "balanced_accuracy": "0.8616 \u00b1 0.0104",
+      "mcc": "0.7751 \u00b1 0.0121",
+      "fpr": "0.0247 \u00b1 0.0041",
+      "fnr": "0.2521 \u00b1 0.0237",
+      "log_loss": "0.1677 \u00b1 0.0044",
+      "brier": "0.0554 \u00b1 0.0018"
+    },
+    "target_94_met": false
+  }
+}

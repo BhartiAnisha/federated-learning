@@ -1,0 +1,13 @@
+Item,Value
+Original shape (rows x cols),"[699, 11]"
+Exact duplicate records removed,236
+Rows after cleaning,463
+Raw features / features after encoding,9 / 9
+Classes (count),"{'benign': 225, 'malignant': 238}"
+Missing values (original file),16
+Train / Val / Test,323 / 70 / 70
+Positive rate train/val/test,0.514 / 0.514 / 0.514
+Majority-class test accuracy (trivial baseline),0.5143
+"Client sizes, K=10, iid",31–33 (mean 32.3); client positive rate 0.50–0.52
+"Client sizes, K=10, moderate (Dir 0.5)",7–63 (mean 32.3); client positive rate 0.03–0.95
+"Client sizes, K=10, strong (Dir 0.1)",2–109 (mean 32.3); client positive rate 0.00–1.00

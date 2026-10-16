@@ -1,0 +1,125 @@
+{
+  "name": "hospital",
+  "source_file": "Hospital_management.csv",
+  "original_shape": [
+    699,
+    11
+  ],
+  "missing_values": 16,
+  "duplicates_removed": 236,
+  "final_rows_before_encoding": 463,
+  "n_raw_features": 9,
+  "classes": {
+    "benign": 225,
+    "malignant": 238
+  },
+  "pos_name": "malignant",
+  "neg_name": "benign",
+  "final_features_after_encoding": 9,
+  "n_train": 323,
+  "n_val": 70,
+  "n_test": 70,
+  "train_pos_rate": 0.5139318885448917,
+  "val_pos_rate": 0.5142857142857142,
+  "test_pos_rate": 0.5142857142857142,
+  "majority_baseline_test_acc": 0.5142857142857142,
+  "partitions": {
+    "iid": {
+      "n_clients": 10,
+      "size_min": 31,
+      "size_max": 33,
+      "size_mean": 32.3,
+      "pos_rate_min": 0.5,
+      "pos_rate_max": 0.5161290322580645,
+      "sizes": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        32,
+        31,
+        31,
+        31
+      ],
+      "pos_rates": [
+        0.5151515151515151,
+        0.5151515151515151,
+        0.5151515151515151,
+        0.5151515151515151,
+        0.5151515151515151,
+        0.5151515151515151,
+        0.5,
+        0.5161290322580645,
+        0.5161290322580645,
+        0.5161290322580645
+      ]
+    },
+    "moderate (Dir 0.5)": {
+      "n_clients": 10,
+      "size_min": 7,
+      "size_max": 63,
+      "size_mean": 32.3,
+      "pos_rate_min": 0.03389830508474576,
+      "pos_rate_max": 0.9545454545454546,
+      "sizes": [
+        29,
+        7,
+        11,
+        22,
+        63,
+        63,
+        17,
+        31,
+        59,
+        21
+      ],
+      "pos_rates": [
+        0.3448275862068966,
+        0.5714285714285714,
+        0.9090909090909091,
+        0.9545454545454546,
+        0.5079365079365079,
+        0.8888888888888888,
+        0.11764705882352941,
+        0.2903225806451613,
+        0.03389830508474576,
+        0.9523809523809523
+      ]
+    },
+    "strong (Dir 0.1)": {
+      "n_clients": 10,
+      "size_min": 2,
+      "size_max": 109,
+      "size_mean": 32.3,
+      "pos_rate_min": 0.0,
+      "pos_rate_max": 1.0,
+      "sizes": [
+        12,
+        6,
+        51,
+        2,
+        90,
+        15,
+        109,
+        30,
+        6,
+        2
+      ],
+      "pos_rates": [
+        0.0,
+        0.0,
+        0.803921568627451,
+        1.0,
+        0.9888888888888889,
+        0.2,
+        0.0,
+        1.0,
+        0.0,
+        0.5
+      ]
+    }
+  },
+  "md5": "89ea55e56ce5f828f8011a53ac3e0e94"
+}

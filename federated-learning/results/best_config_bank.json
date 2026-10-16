@@ -1,0 +1,18 @@
+{
+  "n_clients": 10,
+  "participation": 1.0,
+  "rounds": 80,
+  "patience": 10,
+  "local_epochs": 5,
+  "batch_size": 64,
+  "optimizer": "sgd",
+  "lr": 0.03,
+  "lr_decay": 1.0,
+  "hidden": [
+    32
+  ],
+  "dropout": 0.1,
+  "weight_decay": 0.0,
+  "class_weight": null,
+  "mu": 0.0
+}

@@ -1,0 +1,13 @@
+Item,Value
+Original shape (rows x cols),"[4521, 17]"
+Exact duplicate records removed,0
+Rows after cleaning,4521
+Raw features / features after encoding,15 / 50
+Classes (count),"{'not subscribed': 4000, 'subscribed': 521}"
+Missing values (original file),0
+Train / Val / Test,3164 / 678 / 679
+Positive rate train/val/test,0.115 / 0.115 / 0.115
+Majority-class test accuracy (trivial baseline),0.8851
+"Client sizes, K=10, iid",315–317 (mean 316.4); client positive rate 0.11–0.12
+"Client sizes, K=10, moderate (Dir 0.5)",119–857 (mean 316.4); client positive rate 0.01–0.58
+"Client sizes, K=10, strong (Dir 0.1)",12–1392 (mean 316.4); client positive rate 0.00–0.99

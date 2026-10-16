@@ -1,0 +1,7 @@
+# Lower bounds. Developed and tested with: numpy 2.4.4, pandas 3.0.2,
+# scikit-learn 1.8.0, scipy 1.17.1, matplotlib 3.10.8 (Python 3.12).
+numpy>=2.0
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+matplotlib>=3.8

@@ -1,0 +1,13 @@
+Item,Value
+Original shape (rows x cols),"[97606, 5]"
+Exact duplicate records removed,60337
+Rows after cleaning,37268
+Raw features / features after encoding,6 / 6
+Classes (count),"{'Out': 27326, 'In': 9942}"
+Missing values (original file),0
+Train / Val / Test,26086 / 5591 / 5591
+Positive rate train/val/test,0.267 / 0.267 / 0.267
+Majority-class test accuracy (trivial baseline),0.7331
+"Client sizes, K=10, iid",2607–2609 (mean 2608.6); client positive rate 0.27–0.27
+"Client sizes, K=10, moderate (Dir 0.5)",932–5352 (mean 2608.6); client positive rate 0.01–0.93
+"Client sizes, K=10, strong (Dir 0.1)",5–11988 (mean 2608.6); client positive rate 0.00–1.00
